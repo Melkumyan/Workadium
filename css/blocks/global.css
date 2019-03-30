@@ -1,0 +1,34 @@
+.title {
+  font-weight: bold;
+  font-size: 49px;
+  color: rgb(34, 31, 31);
+  margin-bottom: 40px;
+}
+
+.title--big-mar {
+  margin-bottom: 70px;
+}
+
+.title--lit-mar {
+  margin-bottom: 20px;
+}
+
+.content-wrapper {
+  padding-top: 40px;
+  padding-bottom: 42px;
+}
+
+.content-wrapper--big-pad {
+  padding-top: 55px;
+  padding-bottom: 69px;
+}
+
+.main-content {
+  float: left;
+  width: 880px;
+  margin-left: 20px;
+}
+
+.main-content--big-pad {
+  padding-bottom: 52px;
+}

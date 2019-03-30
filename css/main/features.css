@@ -1,0 +1,74 @@
+.features {
+  margin-bottom: 27px;
+}
+
+.features__list {
+  margin-left: -20px;
+  font-size: 0;
+}
+
+.features__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.feature {
+  width: 250px;
+  padding-top: 17px;
+  text-align: center;
+}
+
+.feature__icon {
+  display: inline-block;
+  background: url('../../img/sprite/spritesheet.png') no-repeat rgb(39, 39, 62);
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+
+.feature__icon--flower {
+  background-position: 5px -138px;
+}
+
+.feature__icon--star {
+  background-position: 2px -406px;
+}
+
+.feature__icon--pallete {
+  background-position: 5px -467px;
+}
+
+.feature__title {
+  font-size: 11px;
+  color: rgb(33, 33, 33);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin-bottom: 18px;
+}
+
+.feature__desc {
+  font-size: 18px;
+  color: rgb(34, 31, 31);
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.feature__list {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 25px;
+}
+
+.feature__item {
+  margin-bottom: 13px;
+}
+
+.feature__item::before {
+  content: "•";
+  color: rgb(204, 51, 102);
+  margin-right: 28px;
+}

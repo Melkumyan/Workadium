@@ -1,0 +1,76 @@
+.sidebar {
+  float: left;
+  width: 160px;
+}
+
+.nav__list {
+  padding-top: 5px;
+}
+
+.nav__list--big-pad {
+  padding-top: 10px;
+}
+
+.nav__item {
+  margin-bottom: 32px;
+}
+
+.nav__link {
+  position: relative;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(236, 30, 121);
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  padding-left: 38px;
+  transition: .3s;
+}
+
+.nav__link::before,
+.nav__link::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  top: -3px;
+  left: 0;
+  background: url('../../img/sprite/spritesheet.png') no-repeat;
+  transition: .3s;
+}
+
+.nav__link--main-icon::after {
+  background-position: -15px -333px;
+}
+
+.nav__link--feed-icon::after {
+  background-position: -15px -58px;
+}
+
+.nav__link--wallet-icon::after {
+  background-position: -15px -660px;
+}
+
+.nav__link--main-icon::before,
+.nav__link--active.nav__link--main-icon::after {
+  background-position: -15px -378px;
+}
+
+.nav__link--feed-icon::before,
+.nav__link--active.nav__link--feed-icon::after {
+  background-position: -15px -106px;
+}
+
+.nav__link--wallet-icon::before,
+.nav__link--active.nav__link--wallet-icon::after {
+  background-position: -15px -706px;
+}
+
+
+.nav__link:hover::after {
+  opacity: 0;
+}
+
+.nav__link--active,
+.nav__link:hover {
+  color: rgb(34, 31, 31);
+}

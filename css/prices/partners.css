@@ -1,0 +1,26 @@
+.partners__list {
+  margin-left: -110px;
+}
+
+.partners__item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 160px;
+  height: 65px;
+  margin-left: 110px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.partner__link {
+  display: block;
+}
+
+.partner__logo {
+  filter: opacity(0.7) grayscale(1);
+  transition: 0.5s;
+}
+
+.partner__logo:hover {
+  filter: none;
+}

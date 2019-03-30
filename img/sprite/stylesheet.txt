@@ -1,0 +1,101 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-fb {
+    width: 6px;
+    height: 13px;
+    background-position: -15px -15px;
+}
+
+.sprite-feed_icon {
+    width: 20px;
+    height: 18px;
+    background-position: -15px -58px;
+}
+
+.sprite-feed_icon-hover {
+    width: 20px;
+    height: 18px;
+    background-position: -15px -106px;
+}
+
+.sprite-flower {
+    width: 27px;
+    height: 31px;
+    background-position: -15px -154px;
+}
+
+.sprite-google {
+    width: 15px;
+    height: 9px;
+    background-position: -15px -215px;
+}
+
+.sprite-left-pagination {
+    width: 6px;
+    height: 10px;
+    background-position: -15px -254px;
+}
+
+.sprite-mail {
+    width: 12px;
+    height: 9px;
+    background-position: -15px -294px;
+}
+
+.sprite-main_icon {
+    width: 17px;
+    height: 15px;
+    background-position: -15px -333px;
+}
+
+.sprite-main_icon-hover {
+    width: 17px;
+    height: 15px;
+    background-position: -15px -378px;
+}
+
+.sprite-mark-as-favorite-star {
+    width: 32px;
+    height: 32px;
+    background-position: -15px -423px;
+}
+
+.sprite-painter-palette {
+    width: 28px;
+    height: 29px;
+    background-position: -15px -485px;
+}
+
+.sprite-right-pagination {
+    width: 6px;
+    height: 10px;
+    background-position: -15px -544px;
+}
+
+.sprite-twitter {
+    width: 11px;
+    height: 9px;
+    background-position: -15px -584px;
+}
+
+.sprite-vk {
+    width: 12px;
+    height: 7px;
+    background-position: -15px -623px;
+}
+
+.sprite-wallet_icon {
+    width: 19px;
+    height: 16px;
+    background-position: -15px -660px;
+}
+
+.sprite-wallet_icon-hover {
+    width: 19px;
+    height: 16px;
+    background-position: -15px -706px;
+}

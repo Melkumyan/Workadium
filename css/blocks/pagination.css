@@ -1,0 +1,60 @@
+.pagination {
+  text-align: center;
+  font-size: 0;
+}
+
+.pagination__info,
+.pagination__btn,
+.pagination__list,
+.pagination__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pagination__list {
+  padding: 0 10px;
+}
+
+.pagination__info {
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  color: #656464;
+}
+
+.pagination__link {
+  display: block;
+  padding: 5px 8px;
+  font-weight: bold;
+  color: rgb(34, 31, 31);
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.pagination__item--active {
+  padding: 0 2px;
+  border-radius: 3px;
+  background-color: rgb(39, 39, 62);
+}
+
+.pagination__item--active .pagination__link {
+  color: #ae2264;
+}
+
+.pagination__link:hover {
+  color: rgb(174, 34, 100);
+}
+
+.pagination__btn {
+  width: 10px;
+  height: 10px;
+  background: url('../../img/sprite/spritesheet.png') no-repeat;
+}
+
+.pagination__btn--prev {
+  margin-left: 20px;
+  background-position: -15px -254px;
+}
+
+.pagination__btn--next {
+  background-position: -15px -544px;
+}

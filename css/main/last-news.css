@@ -1,0 +1,42 @@
+.last-news {
+  margin-bottom: 45px;
+}
+
+.last-news__item {
+  margin-bottom: 29px;
+}
+
+.news__avatar,
+.news__content {
+  float: left;
+}
+
+.news__img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.news__content {
+  width: 700px;
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.news__data {
+  font-size: 14px;
+  color: rgb(101, 100, 100);
+  margin-bottom: 6px;
+}
+
+.news__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.news__desc {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 1.7;
+}
